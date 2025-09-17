@@ -1,0 +1,163 @@
+
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jason Chen - 个人官网</title>
+  <style>
+    body {
+      font-family: "Microsoft YaHei", sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f5f6fa;
+      color: #2f3640;
+      line-height: 1.6;
+    }
+    header {
+      background: #2c3e50;
+      color: #fff;
+      padding: 30px 0;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+    header p {
+      margin: 8px 0 0;
+      font-size: 1.2em;
+    }
+    nav {
+      background: #34495e;
+      text-align: center;
+      padding: 10px;
+    }
+    nav a {
+      color: #ecf0f1;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: #1abc9c;
+    }
+    main {
+      max-width: 1000px;
+      margin: 30px auto;
+      padding: 20px;
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+    section {
+      margin-bottom: 50px;
+    }
+    h2 {
+      border-left: 6px solid #1abc9c;
+      padding-left: 10px;
+      color: #2c3e50;
+      margin-bottom: 15px;
+    }
+    .about {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+    .about img {
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      border: 4px solid #1abc9c;
+      object-fit: cover;
+    }
+    iframe {
+      width: 100%;
+      height: 500px;
+      border: none;
+      border-radius: 8px;
+    }
+    .social {
+      display: flex;
+      gap: 15px;
+      margin-top: 15px;
+    }
+    .social a {
+      display: inline-block;
+      background: #1abc9c;
+      color: #fff;
+      padding: 10px 15px;
+      border-radius: 5px;
+      text-decoration: none;
+      font-size: 14px;
+    }
+    .social a:hover {
+      background: #16a085;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #2c3e50;
+      color: #fff;
+      margin-top: 50px;
+    }
+  </style>
+</head>
+<body>
+  <!-- 页头 -->
+  <header>
+    <h1>Jason Chen</h1>
+    <p>商业 · 兴趣探索 · 终身学习者</p>
+  </header>
+
+  <!-- 导航栏 -->
+  <nav>
+    <a href="#about">关于我</a>
+    <a href="#slides">演示文稿</a>
+    <a href="#contact">联系我</a>
+  </nav>
+
+  <!-- 主体内容 -->
+  <main>
+    <!-- 关于我 -->
+    <section id="about">
+      <h2>关于我</h2>
+      <div class="about">
+        <!-- 换成你的照片 -->
+        <img src="https://via.placeholder.com/180" alt="Jason Chen">
+        <p>
+          大家好，我是 <strong>Jason Chen</strong>。  
+          半退休的商业人士，同时热爱学习和探索世界。  
+          这里是我个人的展示网站，分享兴趣、想法和我的学习成果。
+        </p>
+      </div>
+    </section>
+
+    <!-- Google Slides -->
+    <section id="slides">
+      <h2>我的演示文稿</h2>
+      <p>以下是我在 Google Slides 上的分享：</p>
+      <iframe src="https://docs.google.com/presentation/d/e/XXXX/embed?start=false&loop=false"
+              allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">
+      </iframe>
+    </section>
+
+    <!-- 联系方式 -->
+    <section id="contact">
+      <h2>联系我</h2>
+      <p>📧 邮箱：<a href="mailto:jasontlchen@gmail.com">jasontlchen@gmail.com</a></p>
+      <p>🌐 我的个人域名：<a href="http://yourdomain.com">yourdomain.com</a></p>
+      <div class="social">
+        <a href="https://www.linkedin.com/" target="_blank">LinkedIn</a>
+        <a href="https://twitter.com/" target="_blank">Twitter</a>
+        <a href="https://github.com/" target="_blank">GitHub</a>
+      </div>
+    </section>
+  </main>
+
+  <!-- 页脚 -->
+  <footer>
+    <p>© 2025 Jason Chen | Powered by GitHub Pages</p>
+  </footer>
+</body>
+</html>
